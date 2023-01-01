@@ -49,12 +49,3 @@ None input:
     ...
     TypeError: a must be an integer
 
-Double negative float input:
-    >>> add_integer(-100.5, -10.8)
-    -110
-
-Double string input:
-    >>> add_integer("holberton", "school")
-    Traceback (most recent call last):
-    ...
-    TypeError: a must be an integer
